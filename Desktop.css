@@ -1,0 +1,96 @@
+.title {
+    padding-top: 1vw;
+    padding-left: 2vw;
+    font-size: 3vw;
+}
+
+.form {
+    padding-left: 30vw;
+}
+
+nav {
+    background-color: white;
+    width: 100vw;
+    height: 5vw;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0; 
+    list-style: none;
+}
+
+
+li {
+    color: white;
+    display: inline-block;
+    margin-right: 100px;
+    font-size: 1.5vw;
+    padding-top: 2vw;
+}
+
+.rightPara {
+    margin: 6vw;
+    padding: 1vw;
+}
+
+.leftPara {
+    margin: 6vw;
+    padding: 1vw;
+}
+
+.indeximg {
+    padding-left: 20vw;
+    width: 250px ;
+    height: 500px ;
+}
+
+img {
+    max-width: 29vw;
+    max-height: 15vw;
+    padding-left: 10vw;
+    padding-top: 10vw;
+}
+
+.indeximg2 {
+    height: 500px;
+    width: 450px;
+}
+
+.index {
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "indeximg me"
+                        "rightPara leftPara";
+}
+
+.project {
+    display: grid;
+
+    grid-template-columns: 40% 40%;
+    grid-template-rows: auto;
+    grid-template-areas: "placeholder1 text1"
+                        "placeholder2 text2" 
+                        "placeholder3 text3";
+}
+
+.contact {
+    padding: 70px;
+    margin: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.TextReport {
+    padding: 70px;
+    margin: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+p {
+    font-size: 30px;
+}
